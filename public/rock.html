@@ -4,17 +4,30 @@
 <head>
   <title>You played rock!</title>
   <meta charset="utf-8">
+  <style>
+    * {
+      border: thin red dashed;
+    }
+    a {color: teal;
+      }
+  </style>
 </head>
 
 <body>
 
-  <div><a href="/rock">Play Rock</a></div>
-  <div><a href="/paper">Play Paper</a> </div>
+  <div>
+  <a href="/rock" style="border-top: 5px red dashed;">
+  Play Rock
+  </a></div>
+  <div><a href="/paper">Play Papers</a> </div>
   <div><a href="/scissors">Play Scissors</a> </div>
-  
-  <h2>We played rock!</h2> 
-  
-  <h2>They played paper!</h2>
+  <div>
+    <h2>We played rock!</h2> 
+    
+    <h2 style="color: green"> 
+      They played paper!
+    </h2>
+  </div>
 
   <h2>We lost!</h2>
 
